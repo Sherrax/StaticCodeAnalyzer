@@ -43,17 +43,29 @@ Upon execution, the analyzer will scan the specified file or directory, outputti
 The analyzer identifies several types of issues, each labeled with a unique code for easy reference. Key checks include:
 
 S001: Line too long (exceeds 79 characters).
+
 S002: Indentation not a multiple of four spaces.
+
 S003: Unnecessary semicolon at the end of a statement.
+
 S004: Less than two spaces before inline comments.
+
 S005: TODO comments present.
+
 S006: More than two blank lines before a code line.
+
 S007: Excess spaces after function or class definitions.
+
 S008: Class names should be in CamelCase.
+
 S009: Function names should be in snake_case.
+
 S010: Argument names should be in snake_case.
+
 S011: Variable names should be in snake_case.
+
 S012: Mutable default arguments detected.
+
 ## Contributing
 Contributions to the Static Code Analyzer are welcome! To contribute:
 
