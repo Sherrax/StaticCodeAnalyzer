@@ -27,7 +27,7 @@ Ensure you have Python 3.x installed on your system.
 Install required dependencies, if any:
 
 pip install -r requirements.txt
-##Usage
+## Usage
 To use the Static Code Analyzer, run the following command in your terminal, specifying the path to the Python file or directory you want to analyze:
 
 Analyzing a Single File
@@ -39,7 +39,7 @@ Analyzing All Python Files in a Directory
 python code_analyzer.py path/to/your_directory
 Upon execution, the analyzer will scan the specified file or directory, outputting any coding issues it finds.
 
-Code Checks
+## Code Checks
 The analyzer identifies several types of issues, each labeled with a unique code for easy reference. Key checks include:
 
 S001: Line too long (exceeds 79 characters).
@@ -54,15 +54,15 @@ S009: Function names should be in snake_case.
 S010: Argument names should be in snake_case.
 S011: Variable names should be in snake_case.
 S012: Mutable default arguments detected.
-Contributing
+## Contributing
 Contributions to the Static Code Analyzer are welcome! To contribute:
 
-Fork the repository.
+## Fork the repository.
 Create a new branch for your feature or fix.
 Commit your changes and push the branch.
 Open a pull request for review.
-License
+## License
 This project is licensed under the MIT License. For details, see the LICENSE file in the repository.
 
-Conclusion
+## Conclusion
 The Static Code Analyzer is an essential tool for Python developers who want to maintain high-quality, readable code. By incorporating automated code checks into your workflow, you can enhance code quality and prevent issues before they arise.
